@@ -20,3 +20,4 @@ use App\Http\Controllers\UserController;
 // });
 
 Route::post('/signup', [UserController::class, 'signup']);
+Route::post('/login', [UserController::class, 'login'])->name('login');
